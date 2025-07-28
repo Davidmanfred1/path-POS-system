@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manfredinc - Software & Creative Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Manfredinc</div>
+            <ul class="nav-menu">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="get-started-btn">Get Started</button></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Software & Creative <span class="highlight">Solutions</span></h1>
+            <p>Transforming ideas into powerful digital experiences through cutting-edge technology and creative excellence.</p>
+            <div class="hero-buttons">
+                <button class="btn-primary">Start Your Project →</button>
+                <button class="btn-secondary">📋 View Templates</button>
+            </div>
+        </div>
+        
+        <!-- Stats -->
+        <div class="stats">
+            <div class="stat">
+                <h3>100+</h3>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stat">
+                <h3>50+</h3>
+                <p>Happy Clients</p>
+            </div>
+            <div class="stat">
+                <h3>5+</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat">
+                <h3>24/7</h3>
+                <p>Support</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="services-header">
+                <h2>Our <span class="highlight">Services</span></h2>
+                <p>We offer comprehensive solutions that combine technical expertise with creative excellence to deliver outstanding results for your business.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Software Development</h3>
+                    <p>Custom web applications, mobile apps, and enterprise software solutions built with cutting-edge technologies.</p>
+                    <ul class="service-features">
+                        <li>Full-stack web development</li>
+                        <li>Mobile app development</li>
+                        <li>API development & integration</li>
+                        <li>Database design & optimization</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Creative Design</h3>
+                    <p>Visual identity, UI/UX design, and creative content that captures your brand essence and engages your audience.</p>
+                    <ul class="service-features">
+                        <li>UI/UX design</li>
+                        <li>Brand identity design</li>
+                        <li>Graphic design</li>
+                        <li>Video production</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3>Digital Strategy</h3>
+                    <p>Strategic planning and consulting to help your business leverage technology for growth and competitive advantage.</p>
+                    <ul class="service-features">
+                        <li>Digital transformation</li>
+                        <li>Technology consulting</li>
+                        <li>Project management</li>
+                        <li>Performance optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="portfolio-header">
+                <h2>Our Recent <span class="highlight">Projects</span></h2>
+                <p>Take a look at some of our latest work and see how we've helped businesses transform their digital presence.</p>
+            </div>
+
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web design">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <span class="portfolio-icon">🌐</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>E-Commerce Platform</h4>
+                            <p>Modern online store with advanced features</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <span class="portfolio-icon">📱</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Fitness Tracking App</h4>
+                            <p>Cross-platform mobile application</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">React Native</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">UI/UX</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web branding">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <span class="portfolio-icon">🏢</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Corporate Website</h4>
+                            <p>Professional business website with CMS</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">WordPress</span>
+                                <span class="tag">Custom Theme</span>
+                                <span class="tag">SEO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="design branding">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <span class="portfolio-icon">🎨</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Brand Identity Design</h4>
+                            <p>Complete brand identity and guidelines</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Logo Design</span>
+                                <span class="tag">Brand Guide</span>
+                                <span class="tag">Print Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <span class="portfolio-icon">⚡</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>SaaS Dashboard</h4>
+                            <p>Analytics dashboard for business intelligence</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Vue.js</span>
+                                <span class="tag">D3.js</span>
+                                <span class="tag">API Integration</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="mobile design">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <span class="portfolio-icon">🛒</span>
+                        </div>
+                        <div class="portfolio-overlay">
+                            <h4>Shopping App UI</h4>
+                            <p>Modern e-commerce mobile app design</p>
+                            <div class="portfolio-tags">
+                                <span class="tag">Figma</span>
+                                <span class="tag">Prototyping</span>
+                                <span class="tag">User Testing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-cta">
+                <p>Want to see more of our work?</p>
+                <button class="btn-secondary">View Full Portfolio</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack Section -->
+    <section class="tech-stack">
+        <div class="container">
+            <div class="tech-header">
+                <h2>Technologies We <span class="highlight">Master</span></h2>
+                <p>We use cutting-edge technologies and proven frameworks to deliver robust, scalable solutions.</p>
+            </div>
+
+            <div class="tech-categories">
+                <div class="tech-category">
+                    <h3>Frontend Development</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <span class="tech-icon">⚛️</span>
+                            <span class="tech-name">React</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">💚</span>
+                            <span class="tech-name">Vue.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">🅰️</span>
+                            <span class="tech-name">Angular</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">⚡</span>
+                            <span class="tech-name">Next.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">🎨</span>
+                            <span class="tech-name">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Backend Development</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <span class="tech-icon">🟢</span>
+                            <span class="tech-name">Node.js</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">🐍</span>
+                            <span class="tech-name">Python</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">☕</span>
+                            <span class="tech-name">Java</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">🔷</span>
+                            <span class="tech-name">C#</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">🐘</span>
+                            <span class="tech-name">PHP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Mobile Development</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <span class="tech-icon">⚛️</span>
+                            <span class="tech-name">React Native</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">🎯</span>
+                            <span class="tech-name">Flutter</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">🍎</span>
+                            <span class="tech-name">iOS (Swift)</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">🤖</span>
+                            <span class="tech-name">Android (Kotlin)</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">📱</span>
+                            <span class="tech-name">Ionic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Database & Cloud</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <span class="tech-icon">🍃</span>
+                            <span class="tech-name">MongoDB</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">🐘</span>
+                            <span class="tech-name">PostgreSQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">☁️</span>
+                            <span class="tech-name">AWS</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">🔥</span>
+                            <span class="tech-name">Firebase</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">🌊</span>
+                            <span class="tech-name">DigitalOcean</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About <span class="highlight">Manfredinc</span></h2>
+                    <p>We're a dynamic software and creative company that bridges the gap between technology and artistry. Our multidisciplinary approach ensures that every project we undertake is both technically robust and visually stunning.</p>
+                    <p>From cutting-edge software development to compelling visual content, we deliver comprehensive solutions that drive business growth and engage audiences across all digital touchpoints.</p>
+                    
+                    <div class="features">
+                        <div class="feature">
+                            <span class="checkmark">✓</span>
+                            <span>Full-stack development expertise</span>
+                        </div>
+                        <div class="feature">
+                            <span class="checkmark">✓</span>
+                            <span>Creative content production</span>
+                        </div>
+                        <div class="feature">
+                            <span class="checkmark">✓</span>
+                            <span>End-to-end project management</span>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-primary">Learn More About Us</button>
+                </div>
+                
+                <div class="about-features">
+                    <div class="feature-card">
+                        <div class="feature-icon">👥</div>
+                        <h4>Expert Team</h4>
+                        <p>Skilled professionals across all disciplines</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h4>Quality Driven</h4>
+                        <p>Committed to excellence in every project</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎯</div>
+                        <h4>Results Focused</h4>
+                        <p>Delivering measurable business outcomes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="testimonials-header">
+                <h2>What Our <span class="highlight">Clients Say</span></h2>
+                <p>Don't just take our word for it. Here's what our satisfied clients have to say about working with Manfredinc.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"Manfredinc transformed our outdated website into a modern, user-friendly platform that has significantly increased our online engagement. Their attention to detail and creative approach exceeded our expectations."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JD</div>
+                        <div class="author-info">
+                            <h4>John Doe</h4>
+                            <p>CEO, TechStart Inc.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"Working with Manfredinc was a game-changer for our business. They delivered a comprehensive digital solution that streamlined our operations and improved our customer experience."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div class="author-info">
+                            <h4>Sarah Mitchell</h4>
+                            <p>Founder, Creative Studios</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"The team at Manfredinc is incredibly professional and talented. They took our vision and turned it into reality with exceptional quality and timely delivery."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MJ</div>
+                        <div class="author-info">
+                            <h4>Michael Johnson</h4>
+                            <p>Director, Global Solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your <span class="highlight">Digital Presence?</span></h2>
+                <p>Let's work together to bring your vision to life. Get in touch with us today and discover how we can help your business thrive in the digital world.</p>
+                <div class="cta-buttons">
+                    <button class="btn-primary cta-btn">Start Your Project</button>
+                    <button class="btn-secondary cta-btn">Schedule a Call</button>
+                </div>
+                <div class="cta-features">
+                    <div class="cta-feature">
+                        <span class="cta-icon">🚀</span>
+                        <span>Fast Delivery</span>
+                    </div>
+                    <div class="cta-feature">
+                        <span class="cta-icon">💡</span>
+                        <span>Creative Solutions</span>
+                    </div>
+                    <div class="cta-feature">
+                        <span class="cta-icon">🎯</span>
+                        <span>Results Driven</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="faq-header">
+                <h2>Frequently Asked <span class="highlight">Questions</span></h2>
+                <p>Get answers to the most common questions about our services and process.</p>
+            </div>
+
+            <div class="faq-content">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>How long does a typical project take?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Project timelines vary depending on complexity and scope. A simple website typically takes 2-4 weeks, while complex web applications can take 2-6 months. We provide detailed timelines during our initial consultation and keep you updated throughout the development process.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>What is your development process?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our process includes: 1) Discovery and planning, 2) Design and prototyping, 3) Development and testing, 4) Review and feedback, 5) Launch and deployment, 6) Ongoing support and maintenance. We maintain clear communication throughout each phase.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Do you provide ongoing support after launch?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We offer various support packages including bug fixes, security updates, content updates, and feature enhancements. Our support plans are flexible and can be customized based on your specific needs and budget.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Can you work with our existing brand guidelines?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We can work within your existing brand guidelines and style guides. If you don't have established guidelines, we can help create a comprehensive brand identity that reflects your company's values and goals.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>What technologies do you specialize in?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We specialize in modern web technologies including React, Vue.js, Node.js, Python, and mobile development with React Native and Flutter. We also work with various databases, cloud platforms, and content management systems.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>How do you handle project communication?</h4>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We use a combination of project management tools, regular video calls, and progress reports to keep you informed. You'll have a dedicated project manager as your main point of contact, and we provide weekly updates on project status.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-header">
+                <h2>Get In <span class="highlight">Touch</span></h2>
+                <p>Ready to start your next project? We'd love to hear from you. Choose the best way to reach us and let's create something amazing together.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-methods">
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-details">
+                                <h4>Email Us</h4>
+                                <p>davidmanfred573589170@gmail.com</p>
+                                <span class="contact-note">We respond within 2-4 hours</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-details">
+                                <h4>Call Us</h4>
+                                <p>+233 59 154 4535</p>
+                                <span class="contact-note">Mon - Fri, 9:00 AM - 6:00 PM</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">�</div>
+                            <div class="contact-details">
+                                <h4>WhatsApp</h4>
+                                <p>+233 59 154 4535</p>
+                                <span class="contact-note">Quick responses available</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">�📍</div>
+                            <div class="contact-details">
+                                <h4>Visit Our Office</h4>
+                                <p>Oshimpa St, Accra, Ghana</p>
+                                <span class="contact-note">By appointment only</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-cta">
+                        <h4>Prefer a Quick Call?</h4>
+                        <p>Schedule a free 15-minute consultation to discuss your project requirements.</p>
+                        <button class="btn-secondary schedule-btn">Schedule Free Call</button>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Start Your Project</h3>
+                    <p>Tell us about your project and we'll get back to you within 24 hours.</p>
+
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+233 XX XXX XXXX">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company</label>
+                                <input type="text" id="company" name="company" placeholder="Your company name">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="mobile-app">Mobile App Development</option>
+                                <option value="ui-ux-design">UI/UX Design</option>
+                                <option value="branding">Branding & Identity</option>
+                                <option value="digital-strategy">Digital Strategy</option>
+                                <option value="consultation">Consultation</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget">Project Budget</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="under-5k">Under $5,000</option>
+                                <option value="5k-10k">$5,000 - $10,000</option>
+                                <option value="10k-25k">$10,000 - $25,000</option>
+                                <option value="25k-50k">$25,000 - $50,000</option>
+                                <option value="50k-plus">$50,000+</option>
+                                <option value="discuss">Let's discuss</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="timeline">Project Timeline</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">Select timeline</option>
+                                <option value="asap">ASAP</option>
+                                <option value="1-month">Within 1 month</option>
+                                <option value="2-3-months">2-3 months</option>
+                                <option value="3-6-months">3-6 months</option>
+                                <option value="6-months-plus">6+ months</option>
+                                <option value="flexible">Flexible</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your project requirements, goals, and any specific features you need..." rows="6" required></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="newsletter" value="yes">
+                                <span class="checkmark-custom"></span>
+                                Subscribe to our newsletter for updates and tips
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn-primary submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-icon">→</span>
+                        </button>
+
+                        <p class="form-note">We respect your privacy. Your information will never be shared with third parties.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>Manfredinc</h3>
+                        <p>Transforming ideas into powerful digital experiences through cutting-edge technology and creative excellence.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Software Development</a></li>
+                        <li><a href="#services">Creative Design</a></li>
+                        <li><a href="#services">Digital Strategy</a></li>
+                        <li><a href="#services">UI/UX Design</a></li>
+                        <li><a href="#services">Mobile Apps</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact">
+                        <p><strong>Address:</strong><br>Oshimpa St, Accra, Ghana</p>
+                        <p><strong>Phone:</strong><br>+233 59 154 4535</p>
+                        <p><strong>Email:</strong><br>davidmanfred573589170@gmail.com</p>
+                        <p><strong>Hours:</strong><br>Mon - Fri: 9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 Manfredinc. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#privacy">Privacy Policy</a>
+                        <a href="#terms">Terms of Service</a>
+                        <a href="#cookies">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
