@@ -1,0 +1,21 @@
+# Core Framework (minimal dependencies, fast install)
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database (SQLite only - no compilation required)
+sqlalchemy==2.0.23
+aiosqlite==0.19.0
+
+# Authentication & Security (minimal crypto dependencies)
+python-jose==3.3.0
+passlib==1.7.4
+python-multipart==0.0.6
+
+# Data Validation
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Basic utilities
+python-dateutil==2.8.2
+python-dotenv==1.0.0
+httpx==0.25.2
